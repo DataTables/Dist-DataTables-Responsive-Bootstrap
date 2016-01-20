@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-responsive-bs",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Responsive for DataTables with styling for [Bootstrap](http://getbootstrap.com/)",
     "files": [
         "js/responsive.bootstrap.js",
