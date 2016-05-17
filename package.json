@@ -6,7 +6,8 @@
         "js/responsive.bootstrap.js",
         "css/responsive.bootstrap.css"
     ],
-    "main": "./js/responsive.bootstrap.js",
+    "main": "js/responsive.bootstrap.js",
+    "style": "css/responsive.bootstrap.css",
     "keywords": [
         "responsive",
         "DataTables",
