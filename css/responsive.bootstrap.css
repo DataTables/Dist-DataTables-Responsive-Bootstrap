@@ -178,3 +178,6 @@ div.dtr-modal div.dtr-modal-background {
     width: 95%;
   }
 }
+div.dtr-bs-modal table.table tr:first-child td {
+  border-top: none;
+}
