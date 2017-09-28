@@ -14,8 +14,8 @@
     ],
     "dependencies": {
         "jquery": ">=1.7",
-        "datatables.net-bs": ">=1.10.9",
-        "datatables.net-responsive": ">=1.0.7"
+        "datatables.net-bs": "^1.10.15",
+        "datatables.net-responsive": "2.2.*"
     },
     "moduleType": [
         "globals",
