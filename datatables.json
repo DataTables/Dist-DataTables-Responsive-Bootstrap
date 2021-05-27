@@ -1,13 +1,15 @@
 {
-    "css": [
-        "css/responsive.bootstrap.css",
-        "css/responsive.bootstrap.min.css"
-    ],
     "js": [
         "js/responsive.bootstrap.js",
         "js/responsive.bootstrap.min.js"
     ],
+    "css": [
+        "css/responsive.bootstrap.css",
+        "css/responsive.bootstrap.min.css"
+    ],
+    "types": [
+        "types/responsive.bootstrap.d.ts"
+    ],
     "src-repo": "http://github.com/DataTables/Responsive",
-    "last-sync": "8fc71ec25bce761fc0cb2c7030ca7d9dc2f0c7ab",
     "last-tag": "2.2.7"
 }
