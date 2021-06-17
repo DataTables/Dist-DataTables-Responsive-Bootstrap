@@ -4,7 +4,7 @@
     "main": "js/responsive.bootstrap.js",
     "style": "css/responsive.bootstrap.css",
     "types": "./types/responsive.bootstrap.d.ts",
-    "version": "2.2.7",
+    "version": "2.2.9",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
