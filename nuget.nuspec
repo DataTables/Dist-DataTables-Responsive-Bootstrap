@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>Responsive  Bootstrap  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-responsive" version="2.3.0"/>
-            <dependency id="datatables.net-bs" version="1.12.1"/>
+            <dependency id="datatables.net-responsive" version="3.0.5"/>
+            <dependency id="datatables.net-bs" version="2.3.2"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -22,6 +22,10 @@
         <file src="js/responsive.bootstrap.js" target="contentFiles\any\any\wwwroot\js"/>
         <file src="js/responsive.bootstrap.min.js" target="content\Scripts"/>
         <file src="js/responsive.bootstrap.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/responsive.bootstrap.min.mjs" target="content\Scripts"/>
+        <file src="js/responsive.bootstrap.min.mjs" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/responsive.bootstrap.mjs" target="content\Scripts"/>
+        <file src="js/responsive.bootstrap.mjs" target="contentFiles\any\any\wwwroot\js"/>
         <file src="css/responsive.bootstrap.css" target="content\Content"/>
         <file src="css/responsive.bootstrap.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/responsive.bootstrap.min.css" target="content\Content"/>
