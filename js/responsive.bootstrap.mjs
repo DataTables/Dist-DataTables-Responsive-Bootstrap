@@ -1,4 +1,4 @@
-/*! Responsive Bootstrap 3 styling 4.0.0 for DataTables
+/*! Responsive Bootstrap 3 styling 4.0.1 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
