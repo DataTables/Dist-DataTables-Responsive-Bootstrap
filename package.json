@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-responsive-bs",
     "description": "Responsive for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)",
-    "main": "js/responsive.bootstrap.js",
-    "module": "js/responsive.bootstrap.mjs",
-    "style": "css/responsive.bootstrap.css",
+    "main": "./js/responsive.bootstrap.js",
+    "module": "./js/responsive.bootstrap.mjs",
+    "style": "./css/responsive.bootstrap.css",
     "types": "./types/responsive.bootstrap.d.ts",
     "version": "4.0.3",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "Responsive",
@@ -34,5 +33,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/Responsive.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/responsive.bootstrap.d.ts",
+            "import": "./js/responsive.bootstrap.mjs",
+            "default": "./js/responsive.bootstrap.mjs",
+            "require": "./js/responsive.bootstrap.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/responsive.bootstrap.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
